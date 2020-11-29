@@ -102,6 +102,22 @@ section {
     margin-left: 20px;
 }
 
+
+/* trying to get the aside to line up the the right. position tag did not work
+ Tried float; nothing changed. Added margin ad width but were off. 
+ 
+ added position fixed but aside box disapperaed. 
+
+ added position absolute. with left 90%and box disapperared. 
+ 10% worked not aligned 
+    */
+    aside {
+        display: inline;
+        float: right; 
+        position: absolute; 
+        left: 40%; 
+    }
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -228,22 +244,8 @@ section {
     margin-bottom: 20px;
     font-size: 36px;
 }
- /* trying to get the aside to line up the the right. position tag did not work
- Tried float; nothing changed. Added margin ad width but were off. 
  
- added position fixed but aside box disapperaed. 
-
- added position absolute. with left 90%and box disapperared. 
- 10% worked not aligned 
-    */
-aside {
-    display: inline;
-    float: right; 
-    position: absolute; 
-    left: 40%; 
     
-    
-}
 
 
 /* got rid of .  */

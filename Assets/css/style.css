@@ -224,9 +224,10 @@ footer {
     
 }
 
-.footer h2 {
+/* got rid of the dot */
+footer h2 {
     font-size: 20px;
 }
 
 
-/* once i learned elements don;t have . page changed more to original.  */
+/* once i learned elements don't have . webpage changed more to original.  */

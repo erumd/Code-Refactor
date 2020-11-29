@@ -9,7 +9,7 @@ the background color changed but  */
 /* nav {
     background-color: #29607c; */
     
-}
+
 
 body {
     background-color: #d9dcd6;
@@ -30,7 +30,7 @@ header h1 {
     font-size: 48px;
 }
 
-/* got rid of . and made seon light gray. SO got rid of all of this */
+/* can not git rid of this bc need this for coloe change for seo */
 header h1 .seo {
     color: #d9dcd6;
 } 
@@ -73,6 +73,19 @@ p {
     background-position: center;
 }
 
+/* added section to make it float left. so aside can come up. 
+added position: fixed but section disapperared.
+added position: absolute with right margin percentages. 0%, 10% 
+added display: inline-block */
+section {
+    display: inline;
+    float: left;
+    position: absolute;
+    /* trying to add pace on the left but aside bar comes on top  */
+    /* left: 1% */
+    right: 15%
+}
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -98,6 +111,9 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    /* added benefit-lead here. this cause the wording to look congested. Brand Awarenedd was too close to the top
+    margin-bottom: 32px;
+    color: #ffffff; */
 }
 
 .benefit-lead {
@@ -151,6 +167,8 @@ p {
 .search-engine-optimization {
     /* added display inline to move blue box left. did not wotk  */
     margin-bottom: 20px;
+    /* trying to add space on the left with margin-left  */
+    margin-left: 20px ;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -162,6 +180,8 @@ p {
 .online-reputation-management {
    
     margin-bottom: 20px;
+    /* trying to add space on the left with margin-left  */
+    margin-left: 20px ;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -172,6 +192,8 @@ p {
 .social-media-marketing {
     
     margin-bottom: 20px;
+    /* trying to add space on the left with margin-left  */
+    margin-left: 20px ;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -179,6 +201,7 @@ p {
     color: #ffffff;
 }
 
+/* can not get rid of  . bc off sets he image on page*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -205,10 +228,20 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
- /* trying to get the aside to line up the the right  */
+ /* trying to get the aside to line up the the right. position tag did not work
+ Tried float; nothing changed. Added margin ad width but were off. 
+ 
+ added position fixed but aside box disapperaed. 
+
+ added position absolute. with left 90%and box disapperared. 
+ 10% worked not aligned 
+    */
 aside {
     display: inline;
-    position: right;
+    float: right; 
+    position: absolute; 
+    left: 40%; 
+    
     
 }
 
